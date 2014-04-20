@@ -13,5 +13,12 @@ print_r($c);
 print_r($d); 
 /* получим: Array([и]=>История
    [м]=>Биология [ф]=>Физика) */
+
+//adding more operators to testfile
+
+foreach ($d as $k => $val)
+{
+   echo "Code $k: book $val \n";
+}
 ?>
 
