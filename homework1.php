@@ -2,7 +2,6 @@
 <?php
 
 echo "Input any string of characters:\n";
-
 $line = fgets(STDIN);
 
 for($k=0; $k < strlen($line);$k++)
