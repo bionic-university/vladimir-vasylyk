@@ -2,22 +2,8 @@
 <?php
 
 echo "Input any string of characters:\n";
-//$line = "";
-//if ($argc < 2) {
-//    echo "Script usage: php homework1.php [line of text].\n";
-//    exit();
-//} else { /* allowing " "[SPACE] symbols to be present in [line of text]
-// as every SPACE means another parameter for the script */
-//
-//        for ($i = 1; $i < $argc; $i++) {
-//
-//            $line = $line . " " . $argv[$i];
-//        }
-//}
-
 
 $line = fgets(STDIN);
-
 
 for($k=0; $k < strlen($line);$k++)
 {
