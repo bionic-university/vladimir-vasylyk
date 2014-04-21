@@ -8,9 +8,17 @@ for($k=0; $k < strlen($line);$k++)
 {
     $arr_char[] = $line{$k};
 }
+<<<<<<< HEAD
 $unique_char = array_unique($arr_char); //creating array w/uniauq values
 $unique_char = array_values($unique_char); //reindexing array w/ unique values
 
+=======
+$unique_char = array_unique($arr_char); //creating array w/ unique values
+$unique_char = array_values($unique_char); //reindexing array w/ unique values
+
+//adding new comment to see how it will be merged
+
+>>>>>>> v0.2
 $counter = 0; //variable to count characters
 $total_char = 0;
 
