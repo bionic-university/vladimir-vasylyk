@@ -14,7 +14,7 @@ for ($pos = 0; $pos < $length; $pos++)
  {
      $result[$line[$pos]]++;
  }
-else $result[$line[$pos]] = 1;
+ else $result[$line[$pos]] = 1;
 }
 
 foreach ($result as $k => $val) {

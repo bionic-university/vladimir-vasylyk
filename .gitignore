@@ -4,7 +4,9 @@ app/logs
 .DS_Store
 .netbeans
 desktop.ini
-somescript.php
+./homework/HW1/test*
+./homework/HW1/somescript.php
+
 <<<<<<< HEAD
 =======
 
