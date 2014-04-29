@@ -1,6 +1,6 @@
 <?php
 
-include "classes/AbstractHome.php";
+//include "classes/AbstractHome.php";
 include "classes/human.php";
 /**
  * Class home
@@ -21,7 +21,7 @@ class Home extends AbstractHome
     protected $people;
 
 
-    function __construct($floors, $colour)//, $doors, $windows, $length, $width)
+    public function __construct($floors, $colour)//, $doors, $windows, $length, $width)
     {
         //parent::__construct($doors, $windows, $length, $width);
         $this->floors = $floors;
@@ -48,8 +48,8 @@ class Home extends AbstractHome
 
     function checkInhabitants()
     {
-        echo "Checking is people live here........";
-        echo "Yes, people live here!";
+        echo "Checking is people live here........".PHP_EOL;
+        echo "Yes, people live here!".PHP_EOL;
     }
 
 
