@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dluck
- * Date: 4/28/14
- * Time: 7:06 PM
- */
-
 include 'classes/AbstractCircle.php';
 include 'classes/Circle.php';
 
