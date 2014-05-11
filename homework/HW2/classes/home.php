@@ -46,11 +46,10 @@ class Home extends AbstractHome
         $this->colour = $colour;
     }
 
-    function checkInhabitants()
+    public function checkInhabitants()
     {
         echo "Checking is people live here........".PHP_EOL;
         echo "Yes, people live here!".PHP_EOL;
     }
-
 
 }
