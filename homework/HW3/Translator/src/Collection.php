@@ -48,7 +48,7 @@ class Collection
                 $a = new ReflectionClass($element);
                 //var_dump($a->getName());
                 $result = $a->getName() . " " . $element->getTitle();
-                $result = $result . " has been translated from " . $element->getLanguage() . PHP_EOL;
+                $result = $result . " will be translated from " . $element->getLanguage() . PHP_EOL;
                 echo $result;
             }
         }

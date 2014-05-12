@@ -2,7 +2,7 @@
 
 class Magazine extends PaperMedia implements ShowInterface
 {
-
+    use LanguageTrait, YearTrait;
     /**
      * @var string
      */
@@ -20,8 +20,9 @@ class Magazine extends PaperMedia implements ShowInterface
      * @param $genre
      * @param $isColour
      */
-    public function __construct($genre, $isColour) // = true)
+    public function __construct($title, $genre, $isColour = true) // = true)
     {
+        $this->title = $title;
         $this->genre = $genre;
         $this->isColour = true; //$this->setIsColour($isColour);
     }

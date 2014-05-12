@@ -8,30 +8,13 @@ spl_autoload_register(
     }
 );
 
-//$bookObj = new Book("Karnegi", "soft");
-//
-//$movieObj = new Movie("Cameron");
-//
-//$magazineObj = new Magazine("politics", true); //doesn't set true to isColour parameter
-////var_dump($magazineObj);
-//
-//
-//$audioBookObj = new AudioBook("Sam", []);
-////var_dump(@$audioBookObj);
+include_once "init.php";
+
+init();
 
 $langArray = array();
-$myCollection = new Collection();
-$avatar = new Movie("Avatar", "James Cameron");
-$fantomas = new Movie("Fantomas", "Andre Hunebelle");
-$avatar->setLanguage("English");
-$fantomas->setLanguage("France");
-$myCollection->addElement($avatar);
-$myCollection->addElement($fantomas);
-//$langArray = ["English", "France"];
-//$myCollection->TranslateElement($langArray);
 
-
-$LangSet = ["English", "Spanish", "German", "France", "Italian", "Portuguese", "Swedish", "Norwegian"];
+//$LangSet = ["English", "Spanish", "German", "France", "Italian", "Portuguese", "Swedish", "Norwegian"];
 
 /*
  * prompting for language that interpreter knows
@@ -59,15 +42,18 @@ while (!$check) {
         echo $promptNewLang;
     }
 }
-//var_dump($myCollection);
 
-var_dump($langArray);
+//var_dump($langArray);
+
+/*
+ * Translating according to inputted languages
+ */
+$myCollection->Translate($langArray);
+
 
 /*
  * Checking if user entered correct language
  */
-$myCollection->Translate($langArray);
-
 function InputLangCheck($language, $LangSet)
 {
     global $langArray;

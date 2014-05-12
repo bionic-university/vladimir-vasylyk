@@ -33,7 +33,7 @@ class Movie extends DigitalMedia implements ShowInterface
         $this->title = $title;
     }
 
-    public function __construct($director, $title)
+    public function __construct($title, $director)
     {
         $this->title = $title;
         $this->director = $director;

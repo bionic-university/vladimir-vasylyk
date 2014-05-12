@@ -2,6 +2,8 @@
 
 class AudioBook extends DigitalMedia implements ShowInterface
 {
+    use LanguageTrait, YearTrait;
+
     /**
      * @var string
      */
@@ -11,10 +13,11 @@ class AudioBook extends DigitalMedia implements ShowInterface
      */
     protected $bookmarks;
 
-    function __construct($author, $bookmarks)
+    function __construct($author, $title)
     {
         $this->author = $author;
-        $this->bookmarks = new ArrayObject();
+        $this->title = $title;
+        //$this->bookmarks = new ArrayObject();
     }
 
     /**
