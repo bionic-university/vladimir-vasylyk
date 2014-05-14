@@ -4,6 +4,6 @@ app/logs
 .DS_Store
 .netbeans
 desktop.ini
-/Lessons/
+Lessons/
 /vendor/
 vendor_bkp/
