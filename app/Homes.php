@@ -1,4 +1,6 @@
 <?php
+//require __DIR__ . '/../bootstrap.php';
+
 
 include "classes/AbstractHome.php";
 include "classes/home.php";
