@@ -2,6 +2,7 @@
 
 //include "classes/AbstractHome.php";
 include "classes/human.php";
+
 /**
  * Class home
  */
@@ -21,13 +22,13 @@ class Home extends AbstractHome
     protected $people;
 
 
-    public function __construct($floors, $colour)//, $doors, $windows, $length, $width)
+    public function __construct($floors, $colour) //, $doors, $windows, $length, $width)
     {
         //parent::__construct($doors, $windows, $length, $width);
         $this->floors = $floors;
         $this->colour = $colour;
         $this->people = new Human(1, 2, 'tall', 2);
-       // $this->$isForSale = true;
+        // $this->$isForSale = true;
     }
 
     /**
@@ -48,8 +49,8 @@ class Home extends AbstractHome
 
     public function checkInhabitants()
     {
-        echo "Checking is people live here........".PHP_EOL;
-        echo "Yes, people live here!".PHP_EOL;
+        echo "Checking is people live here........" . PHP_EOL;
+        echo "Yes, people live here!" . PHP_EOL;
     }
 
 }

@@ -1,11 +1,9 @@
-
 <?php
 
 echo "Input any string of characters:\n";
 $line = fgets(STDIN);
 
-for($k=0; $k < strlen($line);$k++)
-{
+for ($k = 0; $k < strlen($line); $k++) {
     $arr_char[] = $line{$k};
 }
 
@@ -25,22 +23,22 @@ $counter = 0; //variable to count characters
 $total_char = 0;
 
 // for each character in unique array counting number of character in input string
-foreach($unique_char as $val){
-    for($i=0;$i<count($arr_char);$i++){
-        if ($val == $arr_char[$i]){
+foreach ($unique_char as $val) {
+    for ($i = 0; $i < count($arr_char); $i++) {
+        if ($val == $arr_char[$i]) {
             $counter++;
         }
     }
     echo "Symbol '{$val}' presented in the input line " . $counter . " times\n";
     $total_char += $counter;
-    $counter=0; //resetting counter
+    $counter = 0; //resetting counter
 }
 
-echo "Input string length is " . strlen($line) . " characters\n";
-echo "This script processed  " . $total_char . " characters\n";
-
-if (strlen($line) == $total_char){
-    echo "Profit! :)\n";
-} else {
-    echo "Oh noooo, not working again\n";
-}
+//echo "Input string length is " . strlen($line) . " characters\n";
+//echo "This script processed  " . $total_char . " characters\n";
+//
+//if (strlen($line) == $total_char){
+//    echo "Profit! :)\n";
+//} else {
+//    echo "Oh noooo, not working again\n";
+//}

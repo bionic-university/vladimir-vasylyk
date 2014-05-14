@@ -4,9 +4,5 @@ app/logs
 .DS_Store
 .netbeans
 desktop.ini
-homework/HW1/test1.php
-homework/HW1/test2.php
-homework/HW1/test3.php
-homework/HW1/somescript.php
-oop/Tutor/
-Lessons/
+/Lessons/
+/vendor/

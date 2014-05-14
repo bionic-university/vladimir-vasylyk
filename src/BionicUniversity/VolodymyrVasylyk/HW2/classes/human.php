@@ -29,6 +29,6 @@ class Human
 
     public function openTheDoor()
     {
-        echo "Opening the door...".PHP_EOL;
+        echo "Opening the door..." . PHP_EOL;
     }
 } 

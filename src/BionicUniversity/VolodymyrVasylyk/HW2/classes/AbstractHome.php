@@ -5,11 +5,11 @@ abstract class AbstractHome
     /**
      * @var int
      */
-    protected  $doors;
+    protected $doors;
     /**
      * @var int
      */
-    protected  $windows;
+    protected $windows;
     /**
      * @var int
      */
