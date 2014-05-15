@@ -1,10 +1,12 @@
 <?php
+
 require __DIR__ . '/../bootstrap.php';
 
-//include_once "../src/BionicUniversity/VolodymyrVasylyk/HW3/Translator/src/init.php";
-use BionicUniversity\VolodymyrVasylyk\HW3\Translator\src\init;
+//namespace
+//include_once "../src/BionicUniversity/VolodymyrVasylyk/HW3/Translator/src/initial.php";
+include_once '../src/BionicUniversity/VolodymyrVasylyk/HW3/Translator/initial.php';
 
-init();
+Initialisation();
 
 $langArray = array();
 

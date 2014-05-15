@@ -1,8 +1,6 @@
 <?php
 
-//var_dump(2);
-
-function init()
+function Initialisation()
 {
     global $LangSet;
     //var_dump(true);

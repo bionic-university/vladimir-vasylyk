@@ -8,7 +8,7 @@ spl_autoload_register(
     }
 );
 
-include_once "init.php";
+include_once "initial.php";
 
 init();
 
