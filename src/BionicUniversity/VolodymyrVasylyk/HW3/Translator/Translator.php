@@ -10,15 +10,14 @@ spl_autoload_register(
 
 include_once "initial.php";
 
-init();
+Initialisation();
 
 $langArray = array();
 
 //$LangSet = ["English", "Spanish", "German", "France", "Italian", "Portuguese", "Swedish", "Norwegian"];
 
-/*
- * prompting for language that interpreter knows
- */
+
+// prompting for language that interpreter knows
 echo "Please input language known by interpreter (English, Spanish, German etc.)\n";
 $language = trim(fgets(STDIN));
 InputLangCheck($language, $LangSet);
@@ -47,12 +46,14 @@ while (!$check) {
 
 /*
  * Translating according to inputted languages
+ *
  */
 $myCollection->Translate($langArray);
 
-
-/*
+/**
  * Checking if user entered correct language
+ * @param $language
+ * @param $LangSet
  */
 function InputLangCheck($language, $LangSet)
 {

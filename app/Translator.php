@@ -2,8 +2,6 @@
 
 require __DIR__ . '/../bootstrap.php';
 
-//namespace
-//include_once "../src/BionicUniversity/VolodymyrVasylyk/HW3/Translator/src/initial.php";
 include_once '../src/BionicUniversity/VolodymyrVasylyk/HW3/Translator/initial.php';
 
 Initialisation();
