@@ -3,7 +3,10 @@
 
 class Collection
 {
-    protected $collection;
+    /**
+     * @var array
+     */
+    public $collection;
 
     public function __construct()
     {

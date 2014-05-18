@@ -64,3 +64,4 @@ function InputLangCheck($language, $LangSet)
     }
     $langArray[] = $language;
 }
+

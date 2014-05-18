@@ -18,14 +18,14 @@
     </php>
 
     <testsuites>
-        <testsuite name="Symfony Test Suite">
-            <directory>./src/BionicUniversity/vladimir-vasylyk/*/Tests/</directory>
+        <testsuite name="My Test Suite">
+            <directory>./src/BionicUniversity/VolodymyrVasylyk/*/Tests/</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory>./src/Symfony/</directory>
+            <directory>./src/</directory>
         </whitelist>
     </filter>
 </phpunit>

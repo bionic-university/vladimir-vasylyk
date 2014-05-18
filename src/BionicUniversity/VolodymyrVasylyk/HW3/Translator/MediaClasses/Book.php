@@ -7,15 +7,15 @@ class Book extends PaperMedia implements ShowInterface
     /**
      * @var string
      */
-    protected $author;
+    public $author;
     /**
      * @var string
      */
-    protected $cover;
+    public $cover;
     /**
      * @var bool
      */
-    protected $havePictures;
+    public $havePictures;
 
     public function __construct($author, $title, $havePictures = true)
     {
