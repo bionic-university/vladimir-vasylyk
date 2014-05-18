@@ -1,7 +1,7 @@
 <?php
 
 include "classes/AbstractHome.php";
-include "classes/home.php";
+include "classes/Home.php";
 
 $firstHome = new Home(2, 'grey');
 echo "First home square is " . $firstHome->GetSquare() . " sq.m." . PHP_EOL;
