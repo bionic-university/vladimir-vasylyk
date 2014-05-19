@@ -42,8 +42,6 @@ while (!$check) {
     }
 }
 
-//var_dump($langArray);
-
 /*
  * Translating according to inputted languages
  *

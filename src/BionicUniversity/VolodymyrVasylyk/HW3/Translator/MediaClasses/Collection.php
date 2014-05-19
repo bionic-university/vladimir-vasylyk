@@ -2,7 +2,7 @@
 
 namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
-class Collection
+class Collection extends \ArrayObject
 {
     /**
      * @var array

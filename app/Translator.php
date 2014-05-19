@@ -2,6 +2,8 @@
 
 require __DIR__ . '/../bootstrap.php';
 
+//namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
+
 include_once '../src/BionicUniversity/VolodymyrVasylyk/HW3/Translator/initial.php';
 
 Initialisation();
