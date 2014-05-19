@@ -7,16 +7,17 @@ use BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\Book;
 
 class BookTest extends \PHPUnit_Framework_TestCase
 {
-    public function TestGetTitle()
+    public function testGetTitle()
     {
         $bookObj = new Book("SomeAuthor", "SomeTitle"); //Book("SomeAuthor", "SomeTitle");
-        $someAuthor = "SomeAuthor";
-        $this->assertEquals($someAuthor, $bookObj->getTitle());
+        $someTitle = "SomeTitle";
+        $this->assertEquals($someTitle, $bookObj->getTitle());
     }
 
-    public function TestSetTitle()
+    public function testSetTitle()
     {
         $bookObj = new Book("someAuthor", "someTitle");
+        //$neee = new
         $otherTitle = "otherTitle";
         $bookObj->setTitle("otherTitle");
         $this->assertEquals($otherTitle, $bookObj->getTitle());

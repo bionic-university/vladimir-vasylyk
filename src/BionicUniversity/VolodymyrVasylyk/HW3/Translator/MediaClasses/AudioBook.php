@@ -1,6 +1,6 @@
 <?php
 
-namespace MediaClasses;
+namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
 class AudioBook extends DigitalMedia implements ShowInterface
 {

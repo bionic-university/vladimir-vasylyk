@@ -1,5 +1,7 @@
 <?php
 
+namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
+
 trait LanguageTrait
 {
     /**

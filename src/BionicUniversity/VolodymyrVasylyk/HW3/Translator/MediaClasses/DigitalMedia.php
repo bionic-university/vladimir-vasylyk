@@ -1,5 +1,6 @@
 <?php
 
+namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
 class DigitalMedia extends AbstractMedia
 {
