@@ -1,5 +1,7 @@
 <?php
 
+namespace MediaClasses;
+
 class AudioBook extends DigitalMedia implements ShowInterface
 {
     use LanguageTrait, YearTrait;

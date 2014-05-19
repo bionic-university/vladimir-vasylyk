@@ -20,7 +20,6 @@ class Book extends PaperMedia implements ShowInterface
     public function __construct($author, $title, $havePictures = true)
     {
         $this->author = $author;
-        //$this->cover = $cover;
         $this->title = $title;
         $this->havePictures = true; //$this->setHavePictures($havePictures);
     }

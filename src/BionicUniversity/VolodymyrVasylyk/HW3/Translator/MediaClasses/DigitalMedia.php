@@ -16,10 +16,10 @@ class DigitalMedia extends AbstractMedia
      * @param $bitrate
      * @param $lenght
      */
-    public function __construct($bitrate, $lenght)
+    public function __construct($bitrate, $length)
     {
         $this->bitrate = $bitrate;
-        $this->length = $lenght;
+        $this->length = $length;
 
     }
 
