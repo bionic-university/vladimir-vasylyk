@@ -2,6 +2,10 @@
 
 namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
+/**
+ * Class AudioBook
+ * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
+ */
 class AudioBook extends DigitalMedia implements ShowInterface
 {
     use LanguageTrait, YearTrait;
@@ -15,11 +19,15 @@ class AudioBook extends DigitalMedia implements ShowInterface
      */
     protected $bookmarks;
 
+    /**
+     * @param $author
+     * @param $title
+     */
+
     function __construct($author, $title)
     {
         $this->author = $author;
         $this->title = $title;
-        //$this->bookmarks = new ArrayObject();
     }
 
     /**
@@ -70,6 +78,9 @@ class AudioBook extends DigitalMedia implements ShowInterface
         $this->title = $title;
     }
 
+    /**
+     * @return void
+     */
     public function showInformation()
     {
         echo "Playing audioBook";
