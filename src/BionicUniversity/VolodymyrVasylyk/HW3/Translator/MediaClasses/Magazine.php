@@ -85,5 +85,4 @@ class Magazine extends PaperMedia implements ShowInterface
 
     }
 
-
-} 
+}

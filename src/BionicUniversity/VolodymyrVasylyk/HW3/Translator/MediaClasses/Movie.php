@@ -41,7 +41,6 @@ class Movie extends DigitalMedia implements ShowInterface
         $this->director = $director;
     }
 
-
     /**
      * @return actors array()
      */
@@ -98,6 +97,5 @@ class Movie extends DigitalMedia implements ShowInterface
     {
         echo "Playing movie...";
     }
-
 
 }

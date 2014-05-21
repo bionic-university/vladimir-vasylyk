@@ -52,5 +52,3 @@ function Initialisation()
     $myCollection->addElement($MensHealth);
     $myCollection->addElement($Elle);
 }
-
-

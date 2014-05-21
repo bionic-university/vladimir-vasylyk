@@ -9,7 +9,6 @@ trait LanguageTrait
      */
     protected $language;
 
-
     /**
      * @return string
      */
@@ -26,5 +25,4 @@ trait LanguageTrait
         $this->language = $language;
     }
 
-
-} 
+}

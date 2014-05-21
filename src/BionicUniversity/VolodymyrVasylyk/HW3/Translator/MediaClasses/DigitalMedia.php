@@ -67,4 +67,4 @@ class DigitalMedia extends AbstractMedia
     {
         echo "Paying selected file";
     }
-} 
+}

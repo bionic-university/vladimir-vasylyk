@@ -25,4 +25,4 @@ trait YearTrait
         $this->issueYear = $issueYear;
     }
 
-} 
+}

@@ -40,7 +40,7 @@ class Collection extends \ArrayObject
 //        while ($iterator->valid())
 //            echo $iterator->current();
 //            //echo $iterator->current()->getLanguage();
-//            if (in_array($iterator->current()->getlanguage(), $langArray)){
+//            if (in_array($iterator->current()->getlanguage(), $langArray)) {
 //                echo "Translated!\n";
 //            };
         //var_dump($collection);
@@ -67,7 +67,8 @@ class Collection extends \ArrayObject
         } else {
             $result = true;
         }
+
         return $result;
     }
 
-} 
+}

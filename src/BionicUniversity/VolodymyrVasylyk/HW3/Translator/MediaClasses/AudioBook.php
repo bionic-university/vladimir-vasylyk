@@ -24,7 +24,7 @@ class AudioBook extends DigitalMedia implements ShowInterface
      * @param $title
      */
 
-    function __construct($author, $title)
+    public function __construct($author, $title)
     {
         $this->author = $author;
         $this->title = $title;
@@ -86,5 +86,4 @@ class AudioBook extends DigitalMedia implements ShowInterface
         echo "Playing audioBook";
     }
 
-
-} 
+}
