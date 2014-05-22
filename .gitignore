@@ -6,4 +6,5 @@ app/logs
 desktop.ini
 Lessons/
 /vendor/
-vendor_bkp/
+/app/build/
+cache.properties
