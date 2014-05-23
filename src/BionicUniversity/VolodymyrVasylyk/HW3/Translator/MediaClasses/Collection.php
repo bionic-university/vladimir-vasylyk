@@ -4,30 +4,32 @@ namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
 class Collection extends \ArrayObject
 {
-    /**
-     * @var array
-     */
-    public $collection;
+//    /**
+//     * @var array
+//     */
+//    public $mediaCollection;
+//
+//    public function __construct()
+//    {
+//        $this->collection = array();
+//    }
 
-    public function __construct()
-    {
-        $this->collection = array();
-    }
 
-    /**
-     * @return mixed
-     */
-    public function getElement()
-    {
-        return $this->collection;
-    }
+//TODO implement this method
+//    /**
+//     * @return mixed
+//     */
+//    public function getElement()
+//    {
+//        return $this->;
+//    }
 
     /**
      * @param array of $element
      */
     public function addElement($element)
     {
-        $this->collection[] = $element;
+        $this->append($element);
 
     }
 
@@ -36,16 +38,6 @@ class Collection extends \ArrayObject
      */
     public function Translate($langArray)
     {
-        //$iterator = $this->collection->getIterator();
-//        while ($iterator->valid())
-//            echo $iterator->current();
-//            //echo $iterator->current()->getLanguage();
-//            if (in_array($iterator->current()->getlanguage(), $langArray)) {
-//                echo "Translated!\n";
-//            };
-        //var_dump($collection);
-        //$result = '';
-
         foreach ($this->collection as $element) {
             if (in_array($element->getLanguage(), $langArray)) {
                 //echo "{$element->getDirector()} Translated.\n";

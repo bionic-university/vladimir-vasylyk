@@ -4,19 +4,19 @@
 
 require __DIR__ . '/../bootstrap.php';
 
-include_once '../src/BionicUniversity/VolodymyrVasylyk/HW3/Translator/initial.php';
+//include_once '../src/BionicUniversity/VolodymyrVasylyk/HW3/Translator/initial.php';
+//
+//Initialisation();
 
-Initialisation();
-
-$langArray = array();
-
+$LangSet = ["English", "Spanish", "German", "France", "Italian", "Portuguese", "Swedish", "Norwegian"];
+$Languages = new ArrayObject($LangSet);
+$knownLanguages = new ArrayObject();
 /*
  * prompting for language that interpreter knows
  */
 echo "Please input language known by interpreter (English, Spanish, German etc.)\n";
 $language = trim(fgets(STDIN));
-InputLangCheck($language, $LangSet);
-
+InputLangCheck($language, $Languages);
 /*
  * Asking about other languages
  */
@@ -28,7 +28,7 @@ while (!$check) {
     if ("Y" == $choice) {
         echo "Enter new language: ";
         $language = trim(fgets(STDIN));
-        InputLangCheck($language, $LangSet);
+        InputLangCheck($language, $Languages);
         echo $promptNewLang;
     } elseif ("N" == $choice) {
         $check = true;
@@ -37,19 +37,14 @@ while (!$check) {
     }
 }
 /*
- * Translating according to inputted languages
- */
-$myCollection->Translate($langArray);
-
-/*
  * Checking if user entered correct language
  */
-function InputLangCheck($language, $LangSet)
+function InputLangCheck($language, $Languages)
 {
-    global $langArray;
-    while (!in_array($language, $LangSet)) {
+    global $knownLanguages;
+    while (!in_array($language, (array)$Languages)) {
         echo "Please, enter correct language\n";
         $language = trim(fgets(STDIN));
     }
-    $langArray[] = $language;
+    $knownLanguages->append($language);
 }
