@@ -2,7 +2,7 @@
 
 class Movie extends DigitalMedia implements ShowInterface
 {
-    use YearTrait, LanguageTrait;
+    use YearTrait;
 
     /**
      * @var string

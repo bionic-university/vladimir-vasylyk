@@ -2,7 +2,7 @@
 
 class Magazine extends PaperMedia implements ShowInterface
 {
-    use LanguageTrait, YearTrait;
+    use YearTrait;
 
     /**
      * @var string

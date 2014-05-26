@@ -4,7 +4,7 @@
 class Collection
 {
     /**
-     * @var array
+     * @var AbstractMedia[]
      */
     public $collection;
 
