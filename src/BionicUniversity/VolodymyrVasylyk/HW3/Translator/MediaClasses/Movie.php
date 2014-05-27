@@ -1,5 +1,7 @@
 <?php
 
+namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
+
 class Movie extends DigitalMedia implements ShowInterface
 {
     use YearTrait;
@@ -38,7 +40,6 @@ class Movie extends DigitalMedia implements ShowInterface
         $this->title = $title;
         $this->director = $director;
     }
-
 
     /**
      * @return actors array()
@@ -96,6 +97,5 @@ class Movie extends DigitalMedia implements ShowInterface
     {
         echo "Playing movie...";
     }
-
 
 }

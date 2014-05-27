@@ -8,14 +8,13 @@ spl_autoload_register(
     }
 );
 
-include_once "initial.php";
+include_once 'initial.php';
 
 Initialisation();
 
 $langArray = array();
 
 //$LangSet = ["English", "Spanish", "German", "France", "Italian", "Portuguese", "Swedish", "Norwegian"];
-
 
 // prompting for language that interpreter knows
 echo "Please input language known by interpreter (English, Spanish, German etc.)\n";
@@ -42,8 +41,6 @@ while (!$check) {
     }
 }
 
-//var_dump($langArray);
-
 /*
  * Translating according to inputted languages
  *
@@ -64,4 +61,3 @@ function InputLangCheck($language, $LangSet)
     }
     $langArray[] = $language;
 }
-

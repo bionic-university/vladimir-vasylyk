@@ -1,7 +1,8 @@
 <?php
 
+namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
-class Collection
+class Collection extends \ArrayObject
 {
     /**
      * @var AbstractMedia[]
@@ -39,7 +40,7 @@ class Collection
 //        while ($iterator->valid())
 //            echo $iterator->current();
 //            //echo $iterator->current()->getLanguage();
-//            if (in_array($iterator->current()->getlanguage(), $langArray)){
+//            if (in_array($iterator->current()->getlanguage(), $langArray)) {
 //                echo "Translated!\n";
 //            };
         //var_dump($collection);
@@ -66,7 +67,8 @@ class Collection
         } else {
             $result = true;
         }
+
         return $result;
     }
 
-} 
+}

@@ -1,5 +1,7 @@
 <?php
 
+//namespace src\BionicUniversity\VolodymyrVasylyk\HW3\Translator;
+
 require __DIR__ . '/../bootstrap.php';
 
 include_once '../src/BionicUniversity/VolodymyrVasylyk/HW3/Translator/initial.php';

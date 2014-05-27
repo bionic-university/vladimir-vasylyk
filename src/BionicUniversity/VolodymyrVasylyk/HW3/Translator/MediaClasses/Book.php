@@ -1,11 +1,8 @@
 <?php
+
 namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
-/**
- * Class Book
- * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
- * @
- */
-class Book extends PaperMedia implements \ShowInterface
+
+class Book extends PaperMedia implements ShowInterface
 {
     use LanguageTrait, YearTrait;
 

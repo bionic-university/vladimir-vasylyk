@@ -1,8 +1,9 @@
 <?php
 
+namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 use BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\LanguageInterface;
 
-abstract class AbstractMedia implements LanguageInterface
+abstract class AbstractMedia
 {
     public $title;
 

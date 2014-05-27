@@ -1,5 +1,6 @@
 <?php
 
+namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
 class PaperMedia extends AbstractMedia
 {
@@ -63,6 +64,7 @@ class PaperMedia extends AbstractMedia
         //$result = '';
         $readiness = rand(0, 10);
         (5 < $readiness) ? $result = "Ready to publish" : $result = "To be reworked";
+
         return $result;
     }
 }

@@ -1,5 +1,6 @@
 <?php
 
+namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
 class DigitalMedia extends AbstractMedia
 {
@@ -66,4 +67,4 @@ class DigitalMedia extends AbstractMedia
     {
         echo "Paying selected file";
     }
-} 
+}
