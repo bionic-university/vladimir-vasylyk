@@ -2,6 +2,11 @@
 
 namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
+/**
+ * Class PaperMedia
+ * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
+ *
+ */
 class PaperMedia extends AbstractMedia
 {
     /**

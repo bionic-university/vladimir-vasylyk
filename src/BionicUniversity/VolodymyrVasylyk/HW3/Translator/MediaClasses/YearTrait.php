@@ -7,22 +7,22 @@ trait YearTrait
     /**
      * @var int
      */
-    protected $issueYear;
+    protected $Year;
 
     /**
      * @return int
      */
-    public function getIssueYear()
+    public function getYear()
     {
-        return $this->issueYear;
+        return $this->Year;
     }
 
     /**
-     * @param int $issueYear
+     * @param int $Year
      */
-    public function setIssueYear($issueYear)
+    public function setIssueYear($Year)
     {
-        $this->issueYear = $issueYear;
+        $this->Year = $Year;
     }
 
 }

@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Class LanguageTrait
+ */
 trait LanguageTrait
 {
     /**

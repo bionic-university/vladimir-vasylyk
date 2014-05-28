@@ -6,8 +6,8 @@ use BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\LanguageInterf
 
 /**
  * Class AbstractMedia
- *
  * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
+ *
  */
 abstract class AbstractMedia
 {

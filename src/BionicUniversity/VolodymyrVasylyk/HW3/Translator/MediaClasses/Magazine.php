@@ -4,8 +4,8 @@ namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
 /**
  * Class Magazine
- *
  * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
+ *
  */
 class Magazine extends PaperMedia implements ShowInterface
 {
