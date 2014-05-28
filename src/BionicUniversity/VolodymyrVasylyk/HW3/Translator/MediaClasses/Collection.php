@@ -31,7 +31,7 @@ class Collection extends \ArrayObject
     }
 
     /**
-     * @param $knownLanguages Object
+     * @param Object $knownLanguages
      */
     public function Translate($knownLanguages)
     {
