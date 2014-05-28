@@ -19,12 +19,18 @@ class Home extends AbstractHome
 
     //  protected $isForSale;
 
+    /**
+     * @var Human
+     */
     protected $people;
 
 
-    public function __construct($floors, $colour) //, $doors, $windows, $length, $width)
+    /**
+     * @param int $floors
+     * @param int $colour
+     */
+    public function __construct($floors, $colour)
     {
-        //parent::__construct($doors, $windows, $length, $width);
         $this->floors = $floors;
         $this->colour = $colour;
         $this->people = new Human(1, 2, 'tall', 2);
@@ -47,6 +53,9 @@ class Home extends AbstractHome
         $this->colour = $colour;
     }
 
+    /**
+     * People live here
+     */
     public function checkInhabitants()
     {
         echo "Checking is people live here........" . PHP_EOL;
