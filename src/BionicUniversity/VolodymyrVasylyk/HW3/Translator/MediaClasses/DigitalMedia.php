@@ -2,6 +2,11 @@
 
 namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
+/**
+ * Class DigitalMedia
+ *
+ * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
+ */
 class DigitalMedia extends AbstractMedia
 {
     /**
@@ -56,6 +61,9 @@ class DigitalMedia extends AbstractMedia
         $this->length = $length;
     }
 
+    /**
+     *
+     */
     public function reviewInformation()
     {
         $this->play();
@@ -63,6 +71,9 @@ class DigitalMedia extends AbstractMedia
 
     }
 
+    /**
+     *
+     */
     public function play()
     {
         echo "Paying selected file";

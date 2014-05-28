@@ -54,7 +54,7 @@ class Magazine extends PaperMedia implements ShowInterface
     /**
      * @return bool
      */
-    public function getIsColour()
+    public function IsColour()
     {
         return $this->isColour;
     }

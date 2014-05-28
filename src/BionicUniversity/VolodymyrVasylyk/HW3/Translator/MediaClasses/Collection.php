@@ -2,6 +2,11 @@
 
 namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
+/**
+ * Class Collection
+ *
+ * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
+ */
 class Collection extends \ArrayObject
 {
     /**
@@ -45,10 +50,12 @@ class Collection extends \ArrayObject
                 echo $result;
             }
         }
-
-
     }
 
+    /**
+     * @param $element
+     * @return bool
+     */
     public function checkLanguage($element)
     {
         $result = false;

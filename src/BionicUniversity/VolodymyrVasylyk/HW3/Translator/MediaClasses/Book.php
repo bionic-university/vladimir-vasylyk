@@ -2,6 +2,11 @@
 
 namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
+/**
+ * Class Book
+ *
+ * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
+ */
 class Book extends PaperMedia implements ShowInterface
 {
     use YearTrait; //LanguageTrait, ;
@@ -19,6 +24,11 @@ class Book extends PaperMedia implements ShowInterface
      */
     public $havePictures;
 
+    /**
+     * @param $author
+     * @param $title
+     * @param bool $havePictures
+     */
     public function __construct($author, $title, $havePictures = true)
     {
         $this->author = $author;
@@ -93,11 +103,12 @@ class Book extends PaperMedia implements ShowInterface
         $this->havePictures = $havePictures;
     }
 
+    /**
+     *
+     */
     public function showInformation()
     {
         echo "Opening book. Reading information";
 
     }
-
-
 } 
