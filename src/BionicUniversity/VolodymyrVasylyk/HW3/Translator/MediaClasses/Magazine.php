@@ -27,7 +27,7 @@ class Magazine extends PaperMedia implements ShowInterface
     /**
      * @param string $title
      * @param string $genre
-     * @param bool $isColour
+     * @param bool   $isColour
      */
     public function __construct($title, $genre, $isColour = true)
     {

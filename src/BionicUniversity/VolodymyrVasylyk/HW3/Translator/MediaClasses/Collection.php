@@ -47,7 +47,7 @@ class Collection extends \ArrayObject
         foreach ((array)$this as $element) {
             if (in_array($element->getLanguage(), (array)$knownLanguages)) {
                 $a = new \ReflectionClass($element);
-                $result = $a->getName() . " " . $element->getTitle();
+                $result = $a->getShortName() . " " . $element->getTitle();
                 $result = $result . " will be translated from " . $element->getLanguage() . PHP_EOL;
                 echo $result;
             }
