@@ -19,6 +19,7 @@ class PaperMedia extends AbstractMedia
      */
     protected $paperFormat;
 
+
     /**
      * @param int $numPages
      * @param string $paperFormat
