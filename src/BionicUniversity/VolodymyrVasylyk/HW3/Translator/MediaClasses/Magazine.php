@@ -4,6 +4,7 @@ namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
 /**
  * Class Magazine
+ *
  * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
  *
  */

@@ -4,6 +4,7 @@ namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
 /**
  * Class AudioBook
+ *
  * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
  *
  */

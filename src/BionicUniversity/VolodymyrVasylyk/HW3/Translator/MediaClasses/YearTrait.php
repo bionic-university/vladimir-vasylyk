@@ -2,6 +2,12 @@
 
 namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
+/**
+ * Class YearTrait
+ *
+ * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
+ *
+ */
 trait YearTrait
 {
     /**
