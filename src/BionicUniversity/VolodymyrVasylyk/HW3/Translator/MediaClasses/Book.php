@@ -64,6 +64,7 @@ class Book extends PaperMedia implements ShowInterface
     /**
      * Set author
      * @param string $author
+     *
      * @return void
      */
     public function setAuthor($author)
