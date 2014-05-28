@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Class AbstractHome
+ */
 abstract class AbstractHome
 {
     /**
@@ -19,7 +22,13 @@ abstract class AbstractHome
      */
     protected $width;
 
-    function __construct($doors, $windows, $length, $width)
+    /**
+     * @param int $doors
+     * @param int $windows
+     * @param string $length
+     * @param int $width
+     */
+    public function __construct($doors, $windows, $length, $width)
     {
         $this->doors = $doors;
         $this->windows = $windows;
@@ -43,6 +52,9 @@ abstract class AbstractHome
         return $this->doors;
     }
 
+    /**
+     * @return int
+     */
     public function GetSquare()
     {
         return $this->length * $this->width;
@@ -65,7 +77,7 @@ abstract class AbstractHome
     }
 
     /**
-     * @return mixed
+     * @return int
      */
     public function getWidth()
     {
@@ -73,7 +85,7 @@ abstract class AbstractHome
     }
 
     /**
-     * @param mixed $width
+     * @param int $width
      */
     public function setWidth($width)
     {

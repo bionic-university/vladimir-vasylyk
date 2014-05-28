@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Class Human
+ */
 class Human
 {
     /**
@@ -19,7 +22,13 @@ class Human
      */
     protected $legs;
 
-    function __construct($head, $hands, $body, $legs)
+    /**
+     * @param int $head
+     * @param int $hands
+     * @param string $body
+     * @param int $legs
+     */
+    public function __construct($head, $hands, $body, $legs)
     {
         $this->$head = $head;
         $this->hands = $hands;
@@ -27,6 +36,9 @@ class Human
         $this->legs = $legs;
     }
 
+    /**
+     * Opening door
+     */
     public function openTheDoor()
     {
         echo "Opening the door..." . PHP_EOL;

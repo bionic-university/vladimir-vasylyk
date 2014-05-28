@@ -4,13 +4,13 @@ echo "Input any string of characters:\n";
 $line = fgets(STDIN);
 
 for ($k = 0; $k < strlen($line); $k++) {
-    $arr_char[] = $line{$k};
+    $arrChar[] = $line{$k};
 }
 
 //<<<<<<< HEAD
 
-$unique_char = array_unique($arr_char); //creating array w/uniauq values
-$unique_char = array_values($unique_char); //reindexing array w/ unique values
+$uniqueChar = array_unique($arrChar); //creating array w/uniauq values
+$uniqueChar = array_values($uniqueChar); //reindexing array w/ unique values
 
 /*=======
 $unique_char = array_unique($arr_char); //creating array w/ unique values
@@ -20,17 +20,17 @@ $unique_char = array_values($unique_char); //reindexing array w/ unique values
 
 >>>>>>> v0.2*/
 $counter = 0; //variable to count characters
-$total_char = 0;
+$totalChar = 0;
 
 // for each character in unique array counting number of character in input string
-foreach ($unique_char as $val) {
-    for ($i = 0; $i < count($arr_char); $i++) {
-        if ($val == $arr_char[$i]) {
+foreach ($uniqueChar as $val) {
+    for ($i = 0; $i < count($arrChar); $i++) {
+        if ($val == $arrChar[$i]) {
             $counter++;
         }
     }
     echo "Symbol '{$val}' presented in the input line " . $counter . " times\n";
-    $total_char += $counter;
+    $totalChar += $counter;
     $counter = 0; //resetting counter
 }
 
