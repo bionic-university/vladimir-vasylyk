@@ -43,6 +43,7 @@ class Collection extends \ArrayObject
 //                echo $result;
 //            }
 //        }
+        /** @var $element \BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\AbstractMedia */
         foreach ((array)$this as $element) {
             if (in_array($element->getLanguage(), (array)$knownLanguages)) {
                 $a = new \ReflectionClass($element);
