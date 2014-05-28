@@ -5,7 +5,6 @@ namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 class Movie extends DigitalMedia implements ShowInterface
 {
     use YearTrait; //, LanguageTrait;
-
     /**
      * @var string
      */

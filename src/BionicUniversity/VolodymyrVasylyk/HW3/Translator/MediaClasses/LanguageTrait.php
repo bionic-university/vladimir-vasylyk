@@ -1,13 +1,12 @@
 <?php
 
-namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
-
 trait LanguageTrait
 {
     /**
      * @var string
      */
     protected $language;
+
 
     /**
      * @return string
@@ -25,4 +24,5 @@ trait LanguageTrait
         $this->language = $language;
     }
 
-}
+
+} 

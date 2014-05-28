@@ -1,6 +1,7 @@
 <?php
 
 namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
+use BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\LanguageInterface;
 
 use BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\LanguageInterface;
 
@@ -21,7 +22,6 @@ abstract class AbstractMedia
     {
         $this->language = $language;
     }
-
     /**
      * @return string
      */
@@ -30,3 +30,5 @@ abstract class AbstractMedia
         return $this->title;
     }
 }
+
+

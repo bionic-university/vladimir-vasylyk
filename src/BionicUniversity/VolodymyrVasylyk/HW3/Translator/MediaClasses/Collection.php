@@ -5,7 +5,7 @@ namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 class Collection extends \ArrayObject
 {
     /**
-     * @var array
+     * @var AbstractMedia[]
      */
 //    public $mediaCollection;
 //
