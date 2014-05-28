@@ -4,7 +4,7 @@ namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
 class Magazine extends PaperMedia implements ShowInterface
 {
-    use LanguageTrait, YearTrait;
+    use YearTrait; //LanguageTrait,
 
     /**
      * @var string

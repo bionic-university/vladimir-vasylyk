@@ -4,7 +4,7 @@ namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
 class Book extends PaperMedia implements ShowInterface
 {
-    use LanguageTrait, YearTrait;
+    use YearTrait; //LanguageTrait, ;
 
     /**
      * @var string
@@ -26,13 +26,13 @@ class Book extends PaperMedia implements ShowInterface
         $this->havePictures = true; //$this->setHavePictures($havePictures);
     }
 
-    /**
-     * @return string
-     */
-    public function getTitle()
-    {
-        return $this->title;
-    }
+//    /**
+//     * @return string
+//     */
+//    public function getTitle()
+//    {
+//        return $this->title;
+//    }
 
     /**
      * @param string $title

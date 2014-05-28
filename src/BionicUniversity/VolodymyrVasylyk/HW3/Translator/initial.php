@@ -2,9 +2,9 @@
 
 function Initialisation()
 {
-    global $LangSet;
+    //global $LangSet;
     //var_dump(true);
-    $LangSet = ["English", "Spanish", "German", "France", "Italian", "Portuguese", "Swedish", "Norwegian"];
+    //$LangSet = ["English", "Spanish", "German", "France", "Italian", "Portuguese", "Swedish", "Norwegian"];
 
     global $myCollection, $fantomas, $avatar, $HugoBook, $GoetheBook, $MarkesBook, $RemarkBook, $MensHealth, $Elle;
     $myCollection = new Collection();

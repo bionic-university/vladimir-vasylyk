@@ -4,7 +4,7 @@ namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
 class Movie extends DigitalMedia implements ShowInterface
 {
-    use YearTrait, LanguageTrait;
+    use YearTrait; //, LanguageTrait;
 
     /**
      * @var string
@@ -35,10 +35,10 @@ class Movie extends DigitalMedia implements ShowInterface
         $this->title = $title;
     }
 
-    public function __construct($title, $director)
+    public function __construct($title) //, $director)
     {
         $this->title = $title;
-        $this->director = $director;
+        //$this->director = $director;
     }
 
     /**

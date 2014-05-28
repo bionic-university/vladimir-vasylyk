@@ -4,24 +4,14 @@ namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
 class Collection extends \ArrayObject
 {
-//    /**
-//     * @var array
-//     */
+    /**
+     * @var array
+     */
 //    public $mediaCollection;
 //
 //    public function __construct()
 //    {
-//        $this->collection = array();
-//    }
-
-
-//TODO implement this method
-//    /**
-//     * @return mixed
-//     */
-//    public function getElement()
-//    {
-//        return $this->;
+//        $this->mediaCollection = new \ArrayObject();
 //    }
 
     /**
@@ -29,25 +19,33 @@ class Collection extends \ArrayObject
      */
     public function addElement($element)
     {
+        //$this->mediaCollection[] = $element;
         $this->append($element);
 
     }
 
     /**
-     * @param $langArray array()
+     * @param $knownLanguages array()
      */
-    public function Translate($langArray)
+    public function Translate($knownLanguages)
     {
-        foreach ($this->collection as $element) {
-            if (in_array($element->getLanguage(), $langArray)) {
-                //echo "{$element->getDirector()} Translated.\n";
-                $a = new ReflectionClass($element);
-                //var_dump($a->getName());
+//        foreach ($this->mediaCollection as $element) {
+//            if (in_array($element->getLanguage(), (array)$knownLanguages)) {
+//                $a = new \ReflectionClass($element);
+//                $result = $a->getName() . " " . $element->getTitle();
+//                $result = $result . " will be translated from " . $element->getLanguage() . PHP_EOL;
+//                echo $result;
+//            }
+//        }
+        foreach ((array)$this as $element) {
+            if (in_array($element->getLanguage(), (array)$knownLanguages)) {
+                $a = new \ReflectionClass($element);
                 $result = $a->getName() . " " . $element->getTitle();
                 $result = $result . " will be translated from " . $element->getLanguage() . PHP_EOL;
                 echo $result;
             }
         }
+
 
     }
 

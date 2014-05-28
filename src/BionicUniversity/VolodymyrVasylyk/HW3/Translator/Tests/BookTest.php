@@ -17,20 +17,18 @@ class BookTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetTitle()
     {
-        $bookObj = new Book("SomeAuthor", "SomeTitle"); //Book("SomeAuthor", "SomeTitle");
+        $bookObj = new Book("SomeAuthor", "SomeTitle");
         $someTitle = "SomeTitle";
         $this->assertEquals($someTitle, $bookObj->getTitle());
     }
-
     /**
      * @covers setTitle() function
      */
     public function testSetTitle()
     {
-        $bookObj = new Book("someAuthor", "someTitle");
-        //$neee = new
-        $otherTitle = "otherTitle";
-        $bookObj->setTitle("otherTitle");
+        $bookObj = new Book("SomeAuthor", "SomeTitle");
+        $otherTitle = "OtherTitle";
+        $bookObj->setTitle($otherTitle);
         $this->assertEquals($otherTitle, $bookObj->getTitle());
     }
 }

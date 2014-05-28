@@ -8,7 +8,7 @@ namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
  */
 class AudioBook extends DigitalMedia implements ShowInterface
 {
-    use LanguageTrait, YearTrait;
+    use YearTrait; //LanguageTrait, ;
 
     /**
      * @var string
