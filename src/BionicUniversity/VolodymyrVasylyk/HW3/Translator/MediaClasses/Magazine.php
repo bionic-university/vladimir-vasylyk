@@ -2,6 +2,11 @@
 
 namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
+/**
+ * Class Magazine
+ *
+ * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
+ */
 class Magazine extends PaperMedia implements ShowInterface
 {
     use YearTrait; //LanguageTrait,
@@ -78,6 +83,9 @@ class Magazine extends PaperMedia implements ShowInterface
         $this->isColour = $isColour;
     }
 
+    /**
+     *
+     */
     public function showInformation()
     {
         echo "Opening Magazine. Reading information";

@@ -12,9 +12,9 @@ spl_autoload_register(
 //
 //Initialisation();
 
-$langArray = array();
-
-$LangSet = ["English", "Spanish", "German", "France", "Italian", "Portuguese", "Swedish", "Norwegian"];
+//$langArray = array();
+//
+//$LangSet = ["English", "Spanish", "German", "France", "Italian", "Portuguese", "Swedish", "Norwegian"];
 
 //// prompting for language that interpreter knows
 //echo "Please input language known by interpreter (English, Spanish, German etc.)\n";

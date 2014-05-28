@@ -8,7 +8,8 @@ use BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\Book;
 
 /**
  * Class BookTest
- * @package BionicUniversityodymyrVasylyk\HW3\Translator\Tests
+ *
+ * @package BionicUniversity\VodymyrVasylyk\HW3\Translator\Tests
  */
 class BookTest extends \PHPUnit_Framework_TestCase
 {

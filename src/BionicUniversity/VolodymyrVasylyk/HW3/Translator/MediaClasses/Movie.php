@@ -2,6 +2,11 @@
 
 namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
+/**
+ * Class Movie
+ *
+ * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
+ */
 class Movie extends DigitalMedia implements ShowInterface
 {
     use YearTrait; //, LanguageTrait;
@@ -34,6 +39,9 @@ class Movie extends DigitalMedia implements ShowInterface
         $this->title = $title;
     }
 
+    /**
+     * @param $title
+     */
     public function __construct($title) //, $director)
     {
         $this->title = $title;
@@ -92,6 +100,9 @@ class Movie extends DigitalMedia implements ShowInterface
         $this->quality = $quality;
     }
 
+    /**
+     *
+     */
     public function showInformation()
     {
         echo "Playing movie...";
