@@ -26,8 +26,8 @@ class Book extends PaperMedia implements ShowInterface
     public $havePictures;
 
     /**
-     * @param $author
-     * @param $title
+     * @param string $author
+     * @param string $title
      * @param bool $havePictures
      */
     public function __construct($author, $title, $havePictures = true)
@@ -105,11 +105,11 @@ class Book extends PaperMedia implements ShowInterface
     }
 
     /**
-     *
+     * Echoing some text
      */
     public function showInformation()
     {
         echo "Opening book. Reading information";
 
     }
-} 
+}

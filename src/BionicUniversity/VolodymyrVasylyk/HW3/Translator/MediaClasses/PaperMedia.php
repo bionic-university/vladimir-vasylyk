@@ -20,8 +20,8 @@ class PaperMedia extends AbstractMedia
     protected $paperFormat;
 
     /**
-     * @param $numPages
-     * @param $paperFormat
+     * @param int $numPages
+     * @param string $paperFormat
      */
     public function __construct($numPages, $paperFormat)
     {

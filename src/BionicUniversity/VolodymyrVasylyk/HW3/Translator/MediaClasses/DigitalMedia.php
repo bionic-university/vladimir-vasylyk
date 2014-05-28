@@ -4,6 +4,7 @@ namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
 
 /**
  * Class DigitalMedia
+ *
  * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
  *
  */
@@ -19,8 +20,8 @@ class DigitalMedia extends AbstractMedia
     protected $length;
 
     /**
-     * @param $bitrate
-     * @param $length
+     * @param int $bitrate
+     * @param string $length
      */
     public function __construct($bitrate, $length)
     {
@@ -62,7 +63,7 @@ class DigitalMedia extends AbstractMedia
     }
 
     /**
-     *
+     * representing some information
      */
     public function reviewInformation()
     {
@@ -72,7 +73,7 @@ class DigitalMedia extends AbstractMedia
     }
 
     /**
-     *
+     * Launching play
      */
     public function play()
     {

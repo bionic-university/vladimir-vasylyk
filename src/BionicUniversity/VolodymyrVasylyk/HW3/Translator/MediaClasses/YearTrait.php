@@ -13,22 +13,22 @@ trait YearTrait
     /**
      * @var int
      */
-    protected $Year;
+    protected $year;
 
     /**
      * @return int
      */
     public function getYear()
     {
-        return $this->Year;
+        return $this->year;
     }
 
     /**
-     * @param int $Year
+     * @param int $year
      */
-    public function setIssueYear($Year)
+    public function setYear($year)
     {
-        $this->Year = $Year;
+        $this->year = $year;
     }
 
 }

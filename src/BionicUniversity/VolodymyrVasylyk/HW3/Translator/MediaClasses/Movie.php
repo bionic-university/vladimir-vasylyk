@@ -41,7 +41,7 @@ class Movie extends DigitalMedia implements ShowInterface
     }
 
     /**
-     * @param $title
+     * @param string $title
      */
     public function __construct($title) //, $director)
     {
@@ -50,7 +50,7 @@ class Movie extends DigitalMedia implements ShowInterface
     }
 
     /**
-     * @return actors array()
+     * @return array() actors
      */
     public function getActors()
     {
@@ -58,7 +58,7 @@ class Movie extends DigitalMedia implements ShowInterface
     }
 
     /**
-     * @param array $newActor
+     * @param array() $newActor
      */
     public function setActors($newActor)
     {
@@ -102,7 +102,7 @@ class Movie extends DigitalMedia implements ShowInterface
     }
 
     /**
-     *
+     * playing movie
      */
     public function showInformation()
     {

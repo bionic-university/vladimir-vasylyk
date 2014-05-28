@@ -22,8 +22,8 @@ class AudioBook extends DigitalMedia implements ShowInterface
     protected $bookmarks;
 
     /**
-     * @param $author
-     * @param $title
+     * @param string $author
+     * @param string $title
      */
 
     public function __construct($author, $title)

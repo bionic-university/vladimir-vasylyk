@@ -6,18 +6,19 @@ use BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\LanguageInterf
 
 /**
  * Class AbstractMedia
+ *
  * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
  *
  */
 abstract class AbstractMedia
 {
     /**
-     * @var
+     * @var string
      */
     protected $title;
 
     /**
-     * @var
+     * @var string
      */
     protected $language;
 
@@ -35,7 +36,7 @@ abstract class AbstractMedia
     }
 
     /**
-     * @param $language
+     * @param string $language
      */
     public function setLanguage($language)
     {

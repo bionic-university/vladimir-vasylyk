@@ -85,7 +85,7 @@ class Magazine extends PaperMedia implements ShowInterface
     }
 
     /**
-     *
+     * Echoing some information
      */
     public function showInformation()
     {
