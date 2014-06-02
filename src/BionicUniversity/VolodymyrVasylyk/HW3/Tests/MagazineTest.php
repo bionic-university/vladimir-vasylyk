@@ -11,6 +11,9 @@ use BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses\Magazine;
  */
 class MagazineTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     *
+     */
     public function testGetGenre()
     {
         $magazineObj = new Magazine("SomeTitle", "SomeGenre");
@@ -19,6 +22,9 @@ class MagazineTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($genre, $magazineObj->getGenre());
     }
 
+    /**
+     *
+     */
     public function testSetGenre()
     {
         $magazineObj = new Magazine("SomeTitle", "SomeGenre");
