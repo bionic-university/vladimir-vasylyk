@@ -4,10 +4,9 @@ namespace BionicUniversity\VolodymyrVasylyk\HW2\HomeClasses;
 
 /**
  * Class AbstractHome
- */
-/**
- * Class AbstractHome
+ *
  * @package BionicUniversity\VolodymyrVasylyk\HW2\HomeClasses
+ *
  */
 abstract class AbstractHome
 {

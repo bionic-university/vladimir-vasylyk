@@ -6,11 +6,10 @@
 namespace BionicUniversity\VolodymyrVasylyk\HW2\HomeClasses;
 
 /**
- * Class home
- */
-/**
  * Class Home
+ *
  * @package BionicUniversity\VolodymyrVasylyk\HW2\HomeClasses
+ *
  */
 class Home extends AbstractHome
 {
@@ -75,7 +74,7 @@ class Home extends AbstractHome
     public function checkInhabitants()
     {
         $result = false;
-        if ($this->people){
+        if ($this->people) {
             $result = true;
             echo "Checking is people live here........" . PHP_EOL;
             echo "Yes, people live here!" . PHP_EOL;
