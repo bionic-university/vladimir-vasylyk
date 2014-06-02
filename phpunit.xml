@@ -27,7 +27,7 @@
 
     <testsuites>
         <testsuite name="My Test Suite">
-            <directory>./src/BionicUniversity/VolodymyrVasylyk/*/*/Tests/</directory>
+            <directory>./src/BionicUniversity/VolodymyrVasylyk/*/Tests/</directory>
         </testsuite>
     </testsuites>
 

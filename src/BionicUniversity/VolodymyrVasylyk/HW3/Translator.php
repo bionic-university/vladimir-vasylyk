@@ -62,6 +62,6 @@ spl_autoload_register(
 //    $langArray[] = $language;
 //}
 
-$langObj = new \BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\Languages();
+$langObj = new \BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses\Languages();
 
 var_dump($langObj);

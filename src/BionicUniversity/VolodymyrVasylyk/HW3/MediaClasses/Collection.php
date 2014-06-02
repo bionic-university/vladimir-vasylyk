@@ -1,11 +1,11 @@
 <?php
 
-namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
+namespace BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses;
 
 /**
  * Class Collection
  *
- * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
+ * @package BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses
  *
  */
 class Collection extends \ArrayObject
@@ -43,7 +43,7 @@ class Collection extends \ArrayObject
 //                echo $result;
 //            }
 //        }
-        /** @var $element \BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\AbstractMedia */
+        /** @var $element \BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses\AbstractMedia */
         foreach ((array)$this as $element) {
             if (in_array($element->getLanguage(), (array)$knownLanguages)) {
                 $a = new \ReflectionClass($element);

@@ -1,13 +1,13 @@
 <?php
 
-namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
+namespace BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses;
 
-use BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\LanguageInterface;
+use BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses\LanguageInterface;
 
 /**
  * Class AbstractMedia
  *
- * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
+ * @package BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses
  *
  */
 abstract class AbstractMedia

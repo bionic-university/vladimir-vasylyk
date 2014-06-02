@@ -1,11 +1,11 @@
 <?php
 
-namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses;
+namespace BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses;
 
 /**
  * Class YearTrait
  *
- * @package BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses
+ * @package BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses
  *
  */
 trait YearTrait

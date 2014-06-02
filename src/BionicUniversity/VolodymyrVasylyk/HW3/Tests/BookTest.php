@@ -2,14 +2,14 @@
 /**
  *  Test some methods of Book class
  */
-namespace BionicUniversity\VolodymyrVasylyk\HW3\Translator\Tests;
+namespace BionicUniversity\VolodymyrVasylyk\HW3\Tests;
 
-use BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\Book;
+use BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses\Book;
 
 /**
  * Class BookTest
  *
- * @package BionicUniversity\VodymyrVasylyk\HW3\Translator\Tests
+ * @package BionicUniversity\VodymyrVasylyk\HW3\Tests
  */
 class BookTest extends \PHPUnit_Framework_TestCase
 {
@@ -32,4 +32,6 @@ class BookTest extends \PHPUnit_Framework_TestCase
         $bookObj->setTitle($otherTitle);
         $this->assertEquals($otherTitle, $bookObj->getTitle());
     }
+
+
 }

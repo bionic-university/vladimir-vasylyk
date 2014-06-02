@@ -2,11 +2,11 @@
 
 require __DIR__ . '/../bootstrap.php';
 
-use BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\Book;
-use BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\Collection;
-use BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\Movie;
-use BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\AudioBook;
-use BionicUniversity\VolodymyrVasylyk\HW3\Translator\MediaClasses\Magazine;
+use BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses\Book;
+use BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses\Collection;
+use BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses\Movie;
+use BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses\AudioBook;
+use BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses\Magazine;
 
 $LangSet = ["English", "Spanish", "German", "France", "Italian", "Portuguese", "Swedish", "Norwegian"];
 $Languages = new ArrayObject($LangSet);

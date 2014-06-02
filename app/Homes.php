@@ -1,9 +1,9 @@
 <?php
-//require __DIR__ . '/../bootstrap.php';
+require __DIR__ . '/../bootstrap.php';
 
 
-include "classes/AbstractHome.php";
-include "classes/Home.php";
+include "BionicUniversity\VolodymyrVasylyk\HW2\HomeClasses/AbstractHome.php";
+include "BionicUniversity\VolodymyrVasylyk\HW2\HomeClasses/Home.php";
 
 $firstHome = new Home(2, 'grey');
 echo "First home square is " . $firstHome->GetSquare() . " sq.m." . PHP_EOL;
