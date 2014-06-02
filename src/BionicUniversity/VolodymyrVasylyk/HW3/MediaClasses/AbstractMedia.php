@@ -35,6 +35,11 @@ abstract class AbstractMedia
         return $this->language;
     }
 
+    function __get($name)
+    {
+        return isset($this->$name) ? $this->$name : NULL;
+    }
+
     /**
      * @param string $language
      */

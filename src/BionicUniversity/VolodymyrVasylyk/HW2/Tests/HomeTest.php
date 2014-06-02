@@ -60,7 +60,7 @@ class HomeTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers SetColour() function
+     * @covers setNumberOfDoors() function
      */
     public function testGetNumberOfDoors()
     {
@@ -71,7 +71,7 @@ class HomeTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers setNumberOfDoors() function
      */
     public function testSetNumberOfDoors()
     {
@@ -82,7 +82,7 @@ class HomeTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers getSquare() function
      */
     public function testGetSquare()
     {
@@ -94,7 +94,7 @@ class HomeTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers getLength() function
      */
     public function testGetLength()
     {
@@ -105,7 +105,7 @@ class HomeTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers setLength() function
      */
     public function testSetLength()
     {
@@ -116,7 +116,7 @@ class HomeTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers getWidths() function
      */
     public function testGetWidth()
     {
@@ -127,7 +127,7 @@ class HomeTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers setWidths() function
      */
     public function testSetWidth()
     {
@@ -138,7 +138,7 @@ class HomeTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers checkinhabitants() function
      */
     public function testCheckinhabitants()
     {

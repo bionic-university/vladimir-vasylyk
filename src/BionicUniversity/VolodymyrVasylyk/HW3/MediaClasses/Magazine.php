@@ -54,6 +54,11 @@ class Magazine extends PaperMedia implements ShowInterface
         $this->genre = $genre;
     }
 
+    /**
+     * @param $name
+     *
+     * @return null
+     */
     function __get($name)
     {
         return isset($this->$name) ? $this->$name : NULL;

@@ -12,7 +12,7 @@ use BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses\Magazine;
 class MagazineTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     *
+     * @covers getGenre() function
      */
     public function testGetGenre()
     {
@@ -23,7 +23,7 @@ class MagazineTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers getGenre() function
      */
     public function testSetGenre()
     {

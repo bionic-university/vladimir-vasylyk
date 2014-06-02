@@ -34,7 +34,7 @@ class BookTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers getAuthor() function
      */
     public function testGetAuthor()
     {
@@ -44,7 +44,7 @@ class BookTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers setAuthor() function
      */
     public function testSetAuthor()
     {
@@ -55,7 +55,7 @@ class BookTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers getCover() function
      */
     public function testGetCover()
     {
@@ -66,7 +66,7 @@ class BookTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers setCover() function
      */
     public function testSetCover()
     {
@@ -77,7 +77,7 @@ class BookTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers isHavePictures() function
      */
     public function testIsHavePictures()
     {
@@ -88,7 +88,7 @@ class BookTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers setHavePictures() function
      */
     public function testSetHavePictures()
     {
@@ -99,7 +99,7 @@ class BookTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers getLanguage() function
      */
     public function testGetLanguage()
     {
@@ -110,13 +110,13 @@ class BookTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     *
+     * @covers setLanguage() function
      */
     public function testSetLanguage()
     {
         $bookObj = new Book("SomeAuthor", "SomeTitle");
         $bookObj->setLanguage("Spanish");
         $lang = "Spanish";
-        $this->assertEquals($lang, $bookObj->getLanguage());
+        $this->assertEquals($lang, $bookObj->language);
     }
 }
