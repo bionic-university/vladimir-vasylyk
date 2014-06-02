@@ -5,6 +5,10 @@ namespace BionicUniversity\VolodymyrVasylyk\HW2\HomeClasses;
 /**
  * Class AbstractHome
  */
+/**
+ * Class AbstractHome
+ * @package BionicUniversity\VolodymyrVasylyk\HW2\HomeClasses
+ */
 abstract class AbstractHome
 {
     /**
@@ -38,9 +42,14 @@ abstract class AbstractHome
 //        $this->width = $width;
 //    }
 
+    /**
+     * @param string $name
+     *
+     * @return null
+     */
     function __get($name)
     {
-        return isset($this->$name) ? $this->$name : NULL;
+        return isset($this->$name) ? $this->$name : null;
     }
 
 
@@ -91,8 +100,6 @@ abstract class AbstractHome
     {
         return $this->length;
     }
-
-
 
     /**
      * @return int

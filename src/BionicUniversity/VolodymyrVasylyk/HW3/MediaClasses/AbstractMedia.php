@@ -36,7 +36,7 @@ abstract class AbstractMedia
     }
 
     /**
-     * @param $name
+     * @param string $name
      *
      * @return null
      */

@@ -8,6 +8,10 @@ namespace BionicUniversity\VolodymyrVasylyk\HW2\HomeClasses;
 /**
  * Class home
  */
+/**
+ * Class Home
+ * @package BionicUniversity\VolodymyrVasylyk\HW2\HomeClasses
+ */
 class Home extends AbstractHome
 {
     /**
@@ -55,12 +59,17 @@ class Home extends AbstractHome
         $this->colour = $colour;
     }
 
+    /**
+     * @param string $name
+     */
     public function addInhabitant($name)
     {
         $this->people->append(new Human($name));
     }
     /**
      * People live here
+     *
+     * @return boolean
      */
     public function checkInhabitants()
     {
