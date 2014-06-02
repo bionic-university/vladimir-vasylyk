@@ -33,5 +33,66 @@ class BookTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($otherTitle, $bookObj->getTitle());
     }
 
+    public function testGetAuthor()
+    {
+        $bookObj = new Book("SomeAuthor", "SomeTitle");
+        $author = "SomeAuthor";
+        $this->assertEquals($author, $bookObj->getAuthor());
+    }
 
+    public function testSetAuthor()
+    {
+        $bookObj = new Book("SomeAuthor", "SomeTitle");
+        $bookObj->setAuthor("OtherAuthor");
+        $author = "OtherAuthor";
+        $this->assertEquals($author, $bookObj->author);
+    }
+
+    public function testGetCover()
+    {
+        $bookObj = new Book("SomeAuthor", "SomeTitle");
+        $bookObj->setCover("soft");
+        $cover = "soft";
+        $this->assertEquals($cover, $bookObj->getCover());
+    }
+
+    public function testSetCover()
+    {
+        $bookObj = new Book("SomeAuthor", "SomeTitle");
+        $bookObj->setCover("soft");
+        $cover = "soft";
+        $this->assertEquals($cover, $bookObj->cover);
+    }
+
+    public function testIsHavePictures()
+    {
+        $bookObj = new Book("SomeAuthor", "SomeTitle");
+        $bookObj->setHavePictures(true);
+        $pic = true;
+        $this->assertEquals($pic, $bookObj->isHavePictures());
+    }
+
+    public function testSetHavePictures()
+    {
+        $bookObj = new Book("SomeAuthor", "SomeTitle");
+        $bookObj->setHavePictures(true);
+        $pic = true;
+        $this->assertEquals($pic, $bookObj->havePictures);
+    }
+
+    public function testGetLanguage()
+    {
+        $bookObj = new Book("SomeAuthor", "SomeTitle");
+        $bookObj->setLanguage("Spanish");
+        $lang = "Spanish";
+        $this->assertEquals($lang, $bookObj->getLanguage());
+    }
+
+    public function testSetLanguage()
+    {
+        $bookObj = new Book("SomeAuthor", "SomeTitle");
+        $bookObj->setLanguage("Spanish");
+        $lang = "Spanish";
+        $this->assertEquals($lang, $bookObj->getLanguage());
+    }
 }

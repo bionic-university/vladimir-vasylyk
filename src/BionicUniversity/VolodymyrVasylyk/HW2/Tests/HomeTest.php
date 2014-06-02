@@ -93,6 +93,9 @@ class HomeTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($square, $homeObj->GetSquare());
     }
 
+    /**
+     *
+     */
     public function testGetLength()
     {
         $homeObj = new Home(2, "red");
@@ -101,6 +104,9 @@ class HomeTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($length, $homeObj->getLength());
     }
 
+    /**
+     *
+     */
     public function testSetLength()
     {
         $homeObj = new Home(2, "red");
@@ -109,6 +115,9 @@ class HomeTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($length, $homeObj->length);
     }
 
+    /**
+     *
+     */
     public function testGetWidth()
     {
         $homeObj = new Home(2, "red");
@@ -117,6 +126,9 @@ class HomeTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($width, $homeObj->getWidth());
     }
 
+    /**
+     *
+     */
     public function testSetWidth()
     {
         $homeObj = new Home(2, "red");
@@ -125,6 +137,9 @@ class HomeTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($width, $homeObj->width);
     }
 
+    /**
+     *
+     */
     public function testCheckinhabitants()
     {
         $homeObj = new Home(2, "red");
