@@ -4,7 +4,6 @@ namespace BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses;
 
 /**
  * Class Book
- *
  * @package BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses
  *
  */
@@ -26,9 +25,9 @@ class Book extends PaperMedia implements ShowInterface
     public $havePictures;
 
     /**
-     * @param string $author
+     * @param int    $author
      * @param string $title
-     * @param bool $havePictures
+     * @param bool   $havePictures
      */
     public function __construct($author, $title, $havePictures = true)
     {

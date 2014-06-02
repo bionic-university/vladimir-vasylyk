@@ -66,6 +66,7 @@ class Home extends AbstractHome
     {
         $this->people->append(new Human($name));
     }
+
     /**
      * People live here
      *

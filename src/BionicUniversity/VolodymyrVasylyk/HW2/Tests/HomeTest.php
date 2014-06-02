@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: viuser
- * Date: 01.06.14
- * Time: 3:02
- */
 
 namespace BionicUniversity\VolodymyrVasylyk\HW2\Tests;
 
@@ -12,7 +6,9 @@ Use BionicUniversity\VolodymyrVasylyk\HW2\HomeClasses\Home;
 
 /**
  * Class HomeTest
+ *
  * @package BionicUniversity\VolodymyrVasylyk\HW2\Tests
+ *
  */
 class HomeTest extends \PHPUnit_Framework_TestCase
 {

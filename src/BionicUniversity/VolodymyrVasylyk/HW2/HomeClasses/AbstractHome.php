@@ -124,6 +124,4 @@ abstract class AbstractHome
     {
         $this->width = $width;
     }
-
-
 } 

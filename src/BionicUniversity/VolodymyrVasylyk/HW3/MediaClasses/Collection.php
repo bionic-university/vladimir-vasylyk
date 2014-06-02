@@ -10,9 +10,9 @@ namespace BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses;
  */
 class Collection extends \ArrayObject
 {
-    /**
-     * @var AbstractMedia[]
-     */
+//    /**
+//     * @var AbstractMedia[]
+//     */
 //    public $mediaCollection;
 //
 //    public function __construct()

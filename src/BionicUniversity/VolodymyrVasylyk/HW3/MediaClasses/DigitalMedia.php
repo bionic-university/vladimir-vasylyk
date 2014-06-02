@@ -19,9 +19,10 @@ class DigitalMedia extends AbstractMedia
      */
     protected $length;
 
+
     /**
-     * @param int $bitrate
-     * @param string $length
+     * @param string $bitrate
+     * @param int    $length
      */
     public function __construct($bitrate, $length)
     {
