@@ -2,6 +2,8 @@
 
 namespace BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses;
 
+use Symfony\Component\Validator\Constraints\Null;
+
 /**
  * Class Magazine
  *
@@ -50,6 +52,11 @@ class Magazine extends PaperMedia implements ShowInterface
     public function setGenre($genre)
     {
         $this->genre = $genre;
+    }
+
+    function __get($name)
+    {
+        return isset($this->$name) ? $this->$name : NULL;
     }
 
     /**
