@@ -55,13 +55,13 @@ class Magazine extends PaperMedia implements ShowInterface
     }
 
     /**
-     * @param $name
+     * @param string $name
      *
      * @return null
      */
     function __get($name)
     {
-        return isset($this->$name) ? $this->$name : NULL;
+        return isset($this->$name) ? $this->$name : null;
     }
 
     /**
