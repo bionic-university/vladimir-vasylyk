@@ -36,9 +36,9 @@ abstract class AbstractMedia
     }
 
     /**
-     * @param $name string
+     * @param string $name
      *
-     * @return null
+     * @return mixed
      */
     function __get($name)
     {

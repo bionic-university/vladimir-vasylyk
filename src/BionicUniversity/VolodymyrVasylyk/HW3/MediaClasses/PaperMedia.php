@@ -21,7 +21,7 @@ class PaperMedia extends AbstractMedia
 
 
     /**
-     * @param int $numPages
+     * @param int ...$numPages
      * @param string $paperFormat
      */
     public function __construct($numPages, $paperFormat)

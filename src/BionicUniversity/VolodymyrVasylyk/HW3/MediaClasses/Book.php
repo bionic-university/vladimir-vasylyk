@@ -4,6 +4,7 @@ namespace BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses;
 
 /**
  * Class Book
+ *
  * @package BionicUniversity\VolodymyrVasylyk\HW3\MediaClasses
  *
  */
